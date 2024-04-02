@@ -1,0 +1,34 @@
+{
+    "name": "ellan/formando-ecozinhando",
+    "description": "formando-e-cozinhando",
+    "authors": [
+        {
+            "name": "Elany Souza",
+            "email": "ellanysouza08@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "files": [
+            "app/helpers/constants.php",
+            "app/helpers/redirect.php",
+            "app/helpers/flash.php",
+            "app/helpers/validate.php",
+            "app/helpers/validations.php",
+            "app/helpers/old.php",
+
+            "app/router/router.php",
+            "app/router/routes.php",
+
+            "app/database/connect.php",
+            "app/database/fetch.php",
+
+            "app/core/controller.php"
+        ],
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}

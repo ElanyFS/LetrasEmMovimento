@@ -1,0 +1,140 @@
+html,
+body {
+  font-family: "PT Sans", "sans-serif";
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0.6)), url(../img/home/home.jpeg);
+  padding: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main h1 a{
+  color:#47629E;
+  text-decoration: none;
+}
+
+main h4{
+  color: rgb(255, 255, 255);
+}
+
+.container-fluid button{
+  background-color:#47629E;
+  margin-right:15px;
+  
+}
+
+.btn a{
+  color:white;
+  text-decoration: none;
+}
+
+.btn:hover a{
+  color:#47629E;
+}
+
+
+.credit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1,
+form
+h3 {
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #47629E;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.container {
+  margin: 0px 185px;
+  position: relative;
+}
+
+.container h1{
+  color: #47629E;
+}
+
+a {
+  color: white;
+}
+
+#selectTipoInscricao {
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+
+.obrigatorio {
+  color: red;
+}
+
+.submit_btn {
+  background-color: #65B2C6;
+  border: #65B2C6;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  border-radius: 3px;
+}
+
+label span {
+  color: red;
+}
+
+.alert.alert-danger {
+  background-color: #fa2b2b;
+}
+
+.containerFooter {
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerFooter img {
+  width: 5%;
+  /* height: 3%; */
+  margin-left: 2%;
+}
+
+.ms-3 a {
+  color: black;
+  width: 30px;
+  height: 30px;
+}
+
+#buttonEnviar{
+  background-color: #37a0ba;
+  border: #37a0ba;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  border-radius: 3px;
+}
