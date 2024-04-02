@@ -90,7 +90,7 @@
                 <select name="cidade" class="form-select" name="cidade" style="background-color:#EEE9E9;">
                     <option value="" selected>SELECIONE</option>
                     <?php foreach ($municipios as $key => $municipio) { ?>
-                        <option><?php echo $municipios[$key]->nome_municipio; ?></option>
+                        <option value="<?php echo $municipios[$key]->id; ?>"><?php echo $municipios[$key]->nome_municipio; ?></option>
                     <?php } ?>
                 </select>
                 <?php echo getFlash('cidade'); ?>

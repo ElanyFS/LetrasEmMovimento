@@ -5,7 +5,7 @@
 <div class="card text-center" style="margin: 5px 35%;">
 
     <div class="card-body" >
-        <h5 class="card-title" style="color:#8B8989;">Obrigado(a) por se cadastrar no Formando e Cozinhando!</h5>
+        <h5 class="card-title" style="color:#8B8989;">Obrigado(a) por se cadastrar no Letras em Movimento!</h5>
         <!-- <p class="card-text"></p>
         <a href="#" class="btn btn-primary">Go somewhere</a> -->
 

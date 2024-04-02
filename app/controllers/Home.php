@@ -21,18 +21,6 @@ class Home
         ];
     }
 
-    // public function create()
-    // {
-
-    //     $municipios =  all('municipios');
-
-    //     return [
-    //         'view' => 'formulario.php',
-    //         'data' => ['title' => 'Formulario', 'municipios' => $municipios]
-    //     ];
-    // }
-
-
     public function createStore()
     {
         $validate = validate([
@@ -52,11 +40,11 @@ class Home
             'comprovanteescolapublica' => 'optionalArquivo|uploadArquivo',
             'localtrabalho' => 'optionalString|required',
             'funcao' => 'optionalString|required',
-            'trabalhourestaurante' => 'required',
-            'autonomo' => 'required',
-            'comercio' => 'required',
+            // 'trabalhourestaurante' => 'required',
+            // 'autonomo' => 'required',
+            // 'comercio' => 'required',
             'comprovanteescolaridade' => 'uploadArquivo',
-            'comprovanteexperiencia' => 'uploadArquivo',
+            // 'comprovanteexperiencia' => 'uploadArquivo',
             'email' => 'required|email|unique:usuarios',
         ],persistInput:true);
 
