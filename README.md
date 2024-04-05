@@ -20,7 +20,7 @@ Esta aplicação constitui um formulário de inscrição para adesão ao projeto
 
 # Inicialização
 
-Este projeto foi desenvolvido no ambiente Windows, utilizando as tecnologias mencionadas anteriormente. No entanto, se você estiver utilizando outro sistema operacional, é importante ressaltar que a configuração inicial do projeto pode variar um pouco. Recomendamos que você busque informações específicas sobre como preparar o ambiente para as tecnologias mencionadas, de acordo com o sistema operacional que estiver utilizando. Essa busca por informações adicionais garantirá que você tenha uma configuração adequada para o desenvolvimento do projeto em seu ambiente específico.
+Este projeto foi desenvolvido no ambiente Windows, utilizando as tecnologias mencionadas anteriormente. No entanto, se você estiver utilizando outro sistema operacional, é importante ressaltar que a configuração inicial do projeto pode variar um pouco. Recomendo que você busque informações específicas sobre como preparar o ambiente para as tecnologias mencionadas, de acordo com o sistema operacional que estiver utilizando. Essa busca por informações adicionais garantirá que você tenha uma configuração adequada para o desenvolvimento do projeto em seu ambiente específico.
 
 :pushpin: Instalar
 
